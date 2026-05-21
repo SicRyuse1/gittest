@@ -93,7 +93,6 @@ build/
 .env.production.local
 
 ## Java
-*.class
 *.jar
 *.war
 *.nar
@@ -134,7 +133,6 @@ Cargo.lock
 *.dylib
 *.exe
 *.out
-*.class
 *.ilk
 *.pdb
 *.idb

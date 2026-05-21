@@ -1,0 +1,8 @@
+public class eat {
+    public static void main(String[] args) {
+        Banana myBanana = new Banana("green", 6.5);
+        System.out.println(myBanana);
+        myBanana.ripen();   
+        System.out.println(myBanana);
+    }
+}

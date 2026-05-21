@@ -1,0 +1,30 @@
+public class Banana {
+    private String color;
+    private double length;
+
+    public Banana(String color, double length) {
+        this.color = color;
+        this.length = length;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public double getLength() {
+        return length;
+    }
+
+    public void ripen() {
+        System.out.println("The banana is ripening...");
+        this.color = "yellow";
+    }
+
+    @Override
+    public String toString() {
+        return "Banana{" +
+                "color='" + color + '\'' +
+                ", length=" + length +
+                '}';
+    }
+}
